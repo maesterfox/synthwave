@@ -4,12 +4,15 @@
   "description": "Retrosynth Page",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w scss/ -o css/ --recursive"
+    "sass": "sass --watch scss/:css/"
   },
   "keywords": [
     "Retro",
     "synthwave"
   ],
   "author": "David Fox",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "sass": "^1.71.0"
+  }
 }
