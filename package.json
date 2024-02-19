@@ -1,0 +1,15 @@
+{
+  "name": "responsive-synth",
+  "version": "1.0.0",
+  "description": "Retrosynth Page",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o css/ --recursive"
+  },
+  "keywords": [
+    "Retro",
+    "synthwave"
+  ],
+  "author": "David Fox",
+  "license": "MIT"
+}

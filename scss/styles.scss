@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium&family=Press+Start+2P&family=Yellowtail&display=swap');
+@import 'animations.scss';
+
+* {
+	font-family: 'Press Start 2P', cursive;
+	margin: 0;
+	background: black;
+	height: auto;
+	color: white;
+	text-shadow: 0 0 10px #00f8ff,
+				0 0 20px #00f8ff,
+				0 0 40px #00f8ff,
+				0 0 80px #00f8ff,
+				0 0 120px #00f8ff;
+}
+
+
+h1{
+	font-family: 'Yellowtail', cursive;
+	text-shadow: 0 0 10px #c800ff,
+				0 0 20px #c800ff,
+				0 0 40px #c800ff,
+				0 0 80px #c800ff,
+				0 0 120px #c800ff;
+	filter: brightness(1.2); 
+	font-weight: 400;
+	font-size: 3rem;
+	margin:0;
+	animation: flash 5s linear infinite;
+	opacity: 1; 
+
+}
+
+h2 {
+	font-family: 'Yellowtail', cursive;
+	text-shadow: 0 0 10px #c800ff,
+				0 0 20px #c800ff,
+				0 0 40px #c800ff,
+				0 0 80px #c800ff,
+				0 0 120px #c800ff;
+	font-weight: 400;
+	font-size: 1.8rem;
+	text-transform: capitalize;
+	margin: 0px;
+	filter: brightness(.8);
+	opacity: 1;
+}
+
+h3{
+	text-shadow: 0 0 10px #ff00c1,
+				0 0 20px #ff00c1,
+				0 0 40px #ff00c1,
+				0 0 80px #ff00c1,
+				0 0 120px #ff00c1;
+	font-weight: 400;
+	font-size: 1.4rem;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+img{
+	display: block;
+	width: 100%;
+}
+
+main{
+	max-width: 900px;
+	margin: auto;
+	box-shadow: 0 0 10px #00caff,
+				0 0 20px #00caff,
+				0 0 40px #00caff,
+				0 0 80px #00caff,
+				0 0 120px #00caff;
+				
+				
+}
+
+p {
+	font-family: 'Oxanium', cursive;
+	font-size: 1.2rem;
+	filter: brightness(.9);
+}
+
+#landing{
+	background: rgb(255,113,226);
+	background: linear-gradient(90deg, rgba(255,113,226,1) 0%, rgba(200,0,255,1) 8%, rgba(0,0,0,1) 24%, rgba(0,0,0,1) 76%, rgba(200,0,255,1) 92%, rgba(255,113,226,1) 100%);
+}
+
+#landing-text{
+	display: flex;
+	flex: 0 1 40vw;
+	height: 50vh;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding-right: 1rem;
+	padding-left: 1rem;
+
+}
+
+#landing-text h2{
+	color: white;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	
+}
+
+.btn{
+	background: rgb(255,113,226);
+	background: linear-gradient(90deg, rgba(255,113,226,1) 0%, rgba(200,0,255,1) 8%, rgba(0,0,0,1) 24%, rgba(0,0,0,1) 76%, rgba(200,0,255,1) 92%, rgba(255,113,226,1) 100%);
+	padding: 10px;
+	border: 1px solid #ccc;
+	display: inline-block;
+	margin: 2rem 0 0;
+	border-radius: 50px;
+	text-decoration: none;
+	color: white;
+	transition: background 500ms ease-in;
+	font-size: 16px;
+}
+
+.btn:hover{
+	background: rgb(255,113,226);
+	background: linear-gradient(90deg, rgba(255,113,226,1) 0%, rgba(200,0,255,1) 8%, rgba(0,0,0,1) 24%, rgba(0,0,0,1) 76%, rgba(200,0,255,1) 92%, rgba(255,113,226,1) 100%);
+	box-shadow: 0 0 10px #ff00c1,
+				0 0 20px #ff00c1,
+				0 0 40px #ff00c1,
+				0 0 80px #ff00c1,
+				0 0 120px #ff00c1;
+	opacity: 1;
+	transform: scale(1.2);
+	
+}
+
+#landing-image{
+	background: url("../images/banner.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 60vh;
+	flex: 0 1 60vh;
+	margin: 0;
+	box-shadow: 0 0 10px #ff00c1,
+				0 0 20px #ff00c1,
+				0 0 40px #ff00c1,
+				0 0 80px #ff00c1,;
+				
+				
+}
+
+#header {
+	padding: 1.5rem;
+	text-align: center;
+	background-image: url("../images/headerbg.jpg");
+	justify-content: center;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	padding: 20px;
+	box-shadow: 0 0 10px #ff7300,
+				0 0 20px #ff7300,
+				0 0 40px #ff7300,
+				0 0 80px #ff7300,
+				0 0 120px #ff7300;
+}
+
+#header h2{
+	font-family: 'Yellowtail', cursive;
+	margin-bottom: 20px;
+	padding: 0;
+	display: inline-block;
+	text-shadow: 0 0 10px #ff7300,
+				0 0 20px #ff7300,
+				0 0 40px #ff7300,
+				0 0 80px #ff7300,
+				0 0 120px #ff7300;
+	background: none;
+	filter: brightness(1.2);
+	font-size: 5.0rem;
+
+}
+
+
+
+.caption{
+	padding: 0.8rem;
+	text-align: center;
+
+}
+
+footer{
+	text-align: center;
+	padding: 2rem 1rem;
+	margin: auto;
+	color: white;	
+}
+
+footer h3{
+	font-size: 3rem;
+	margin-bottom: 0;
+	animation: flash 5s linear infinite;
+}
+
+
+/* Screen size 500px + */
+
+@media(min-width: 300px) {
+	#landing{
+		display: flex;
+		height: 100%;
+	}
+
+	#landing-text{
+		height: 100vh;
+	}
+
+	#landing-image{
+		height: 100vh;
+		margin: 0;
+	}
+
+	.btn{
+		padding: 10px;
+		font-size: 10px;
+		}
+
+	h1 {
+		font-size: 3rem;
+	}
+
+}
+
+/* Screen size 700px + */
+
+
+@media(min-width: 700px){
+	.btn{
+		padding: 10px 15px;
+		font-size: 16px;
+	}
+
+	h1 {
+		font-size: 5rem;
+	}
+
+}
+
